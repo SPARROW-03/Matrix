@@ -16,6 +16,11 @@ def generate_launch_description():
     # READ URDF CONTENT as string
     with open(urdf_file, 'r') as infp:
         robot_desc = infp.read()
+    
+    #strip xml declaration with encoding
+    robot_desc=robot_desc.replace(
+        '<?xml version="1.0"?>','').replace('<?xml version="1.0" encoding="utf-8"?>',''
+    )
 
     # Robot state publisher - pass URDF CONTENT, not path
     node_robot_state_publisher = Node(

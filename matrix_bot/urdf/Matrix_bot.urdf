@@ -26,7 +26,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Matrix_bot/meshes/base_link.STL" />
+          filename="package://matrix_bot/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -40,7 +40,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Matrix_bot/meshes/base_link.STL" />
+          filename="package://matrix_bot/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -66,7 +66,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Matrix_bot/meshes/left_wheel.STL" />
+          filename="package://matrix_bot/meshes/left_wheel.STL" />
       </geometry>
       <material
         name="">
@@ -80,7 +80,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Matrix_bot/meshes/left_wheel.STL" />
+          filename="package://matrix_bot/meshes/left_wheel.STL" />
       </geometry>
     </collision>
   </link>
@@ -119,7 +119,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Matrix_bot/meshes/right_wheel.STL" />
+          filename="package://matrix_bot/meshes/right_wheel.STL" />
       </geometry>
       <material
         name="">
@@ -133,7 +133,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Matrix_bot/meshes/right_wheel.STL" />
+          filename="package://matrix_bot/meshes/right_wheel.STL" />
       </geometry>
     </collision>
   </link>
@@ -172,7 +172,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Matrix_bot/meshes/camera.STL" />
+          filename="package://matrix_bot/meshes/camera.STL" />
       </geometry>
       <material
         name="">
@@ -186,7 +186,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Matrix_bot/meshes/camera.STL" />
+          filename="package://matrix_bot/meshes/camera.STL" />
       </geometry>
     </collision>
   </link>
@@ -225,7 +225,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Matrix_bot/meshes/imu_sensor.STL" />
+          filename="package://matrix_bot/meshes/imu_sensor.STL" />
       </geometry>
       <material
         name="">
@@ -239,7 +239,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Matrix_bot/meshes/imu_sensor.STL" />
+          filename="package://matrix_bot/meshes/imu_sensor.STL" />
       </geometry>
     </collision>
   </link>
@@ -278,7 +278,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Matrix_bot/meshes/castor_wheel.STL" />
+          filename="package://matrix_bot/meshes/castor_wheel.STL" />
       </geometry>
       <material
         name="">
@@ -292,13 +292,13 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Matrix_bot/meshes/castor_wheel.STL" />
+          filename="package://matrix_bot/meshes/castor_wheel.STL" />
       </geometry>
     </collision>
   </link>
   <joint
     name="castor_wheel_joint"
-    type="continuous">
+    type="fixed">
     <origin
       xyz="0.02078 -0.11267 0.072307"
       rpy="2.6965 -0.45783 0.27225" />
@@ -331,7 +331,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Matrix_bot/meshes/lidar_sensor.STL" />
+          filename="package://matrix_bot/meshes/lidar_sensor.STL" />
       </geometry>
       <material
         name="">
@@ -345,7 +345,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://Matrix_bot/meshes/lidar_sensor.STL" />
+          filename="package://matrix_bot/meshes/lidar_sensor.STL" />
       </geometry>
     </collision>
   </link>

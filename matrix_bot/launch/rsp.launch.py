@@ -22,7 +22,7 @@ def generate_launch_description():
         package='robot_state_publisher',
         executable='robot_state_publisher',
         output='screen',
-        parameters=[{'robot_description': robot_desc, 'use_sim_time': use_sim_time}]
+        parameters=[{'robot_description': robot_desc, 'use_sim_time': use_sim_time}],
     )
     
     rviz = Node(

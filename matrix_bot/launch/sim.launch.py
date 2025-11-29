@@ -22,6 +22,7 @@ def generate_launch_description():
                    '-x','0.0','-y','0.0','-z','1.0'],
         output='screen'
     )
+    
     return LaunchDescription([
         gazebo,
         spawn_entity
